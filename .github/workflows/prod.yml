@@ -20,7 +20,7 @@ jobs:
         node-version: '16.x'
 
     -name: Instalando dependências e compilando o projeto.
-      run: |
+      run: 
         npm install
         npm run build --if-preset
 
